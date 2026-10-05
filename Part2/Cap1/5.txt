@@ -1,0 +1,7 @@
+5. Nos primeiros computadores, cada byte de dados lido ou
+escrito era executado pela CPU (isto é, não havia DMA).
+Quais implicações isso tem para a multiprogramação?
+
+Sem o controlador DMA, a CPU é forçada a gerir manualmente cada byte transferido para os dispositivos de E/S.
+Logo, se a CPU precisa parar, ela não pode executar o código de outros processos ao mesmo tempo, destruindo o ganho de eficiência
+e o pseudoparalelismo proposto pela multiprogramação.  

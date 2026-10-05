@@ -1,0 +1,4 @@
+3. Qual é a diferença entre sistemas de compartilhamento de tempo e de multiprogramação?
+
+Multiprogramação foca na eficiência de hardware, garantindo que a CPU nunca fique ociosa.
+Já o compartilhamento de tempo faz com que a CPU alterne o contexto entre as tarefas de forma tão rápida que cria a ilusão de pseudoparalelismo.   

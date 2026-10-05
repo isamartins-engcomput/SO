@@ -1,0 +1,4 @@
+33. Se um sistema tem apenas dois processos, faz sentido usar uma barreira para sincronizá-los? Por que ou porque não? 
+
+Sim, faz total sentido. Se esses dois processos cooperam dividindo um trabalho em fases, a barreira garante que nenhum deles inicie a próxima etapa antes
+que o outro termine a atual, mantendo a sincronização exata da tarefa.

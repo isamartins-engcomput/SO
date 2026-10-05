@@ -1,0 +1,5 @@
+5. Um sistema computacional tem espaço suficiente para
+conter cinco programas em sua memória principal. Esses programas estão ociosos esperando por E/S metade
+do tempo. Qual fração do tempo da CPU é desperdiçada?
+
+A fração desperdiçada é a probabilidade de todos os programas aguardarem E/S simultaneamente.

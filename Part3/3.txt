@@ -1,0 +1,8 @@
+3. Considere um sistema onde são submetidos para execução vários processos que possuem alta prioridade e
+também curto tempo de duração. O que acontecerá com os processos de maior tempo de duração que estão na
+fila caso o algoritmo de escalonamento utilizado for o Shortest Job First (SJF)? O que acontecerá com os
+processos de menor prioridade caso seja utilizado um escalonamento por prioridades?
+
+Isso irá causar um colapso em ambos os algoritmos, pois:
+No SJF, os processos mais pesados e longos ficarão travados na fila infinitamente (inanição), já que a CPU sempre preferirá o mais curto.
+E no escalonamento por prioridades, também acontecerá o mesmo, os processos de baixa prioridade sofrerão inanição e nunca rodarão.

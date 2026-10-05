@@ -1,0 +1,6 @@
+6. Instruções relacionadas ao acesso a dispositivos de E/S
+são tipicamente instruções privilegiadas, isto é, podem ser executadas em modo núcleo, mas não em modo
+usuário. Dê uma razão de por que essas instruções são privilegiadas.
+
+Ao manter essas instruções restritas, a aplicação é obrigada a realizar uma chamada de sistema para transitar de modo utilizador para modo núcleo,
+garantindo que o SO valide a permissão e o destino da operação antes de executar.   

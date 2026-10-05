@@ -1,0 +1,5 @@
+18. Qual é a maior vantagem de se implementar threads no
+espaço de usuário? Qual é a maior desvantagem?
+
+A maior vantagem é a velocidade extrema na troca de contexto, pois dispensa chamadas de sistema e transições para o modo núcleo.
+A maior desvantagem é o bloqueio do processo inteiro: se uma thread realizar uma operação de Entrada/Saída bloqueante, todas as outras param junto.

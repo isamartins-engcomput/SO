@@ -1,0 +1,8 @@
+2. O escalonador pode trabalhar para atender alguns objetivos de acordo com o cenário em que está inserido.
+Sobre aumentar a vazão, diminuir o tempo de retorno e diminuir o tempo de resposta em processos, explique
+sobre o que se tratam essas métricas.
+
+O escalonador sempre trabalha tentando otimizar os recursos físicos reais, pra isso ele utiliza essas métricas citadas, definidas como:
+Aumentar a vazão (Throughput): processar e finalizar o maior número possível de processos dentro de um tempo específico.
+Diminuir o tempo de retorno (Turnaround): tempo de vida da tarefa no sistema, contabilizado desde o instante em que o processo foi submetido até sua finalização.
+Diminuir o tempo de resposta: tempo entre o envio de um comando e a obtenção da resposta do sistema.   

@@ -1,0 +1,9 @@
+28. Para um programador, uma chamada de sistema parece
+com qualquer outra chamada para uma rotina de biblio-
+teca. É importante que um programador saiba quais roti-
+nas de biblioteca resultam em chamadas de sistema? Em
+quais circunstâncias e por quê?
+
+Porque as chamadas de sistema custam tempo de CPU porque exigem a mudança de contexto entre o modo utilizador e o modo núcleo.
+Um código que faz mil chamadas de sistema para escrever pequenos bytes será infinitamente mais lento do que um código que agrupa tudo num buffer de
+memória local e faz uma única chamada de sistema completa.

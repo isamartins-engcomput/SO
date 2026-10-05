@@ -1,0 +1,9 @@
+9. Há várias metas de projeto na construção de um sistema
+operacional, por exemplo, utilização de recursos, opor-
+tunidade, robustez e assim por diante. Dê um exemplo
+de duas metas de projeto que podem contradizer uma à
+outra.
+
+Um dilema é o conflito entre Vazão e Tempo de Resposta. Se o escalonador utilizar quanta muito curtos no algoritmo Round-Robin,
+o sistema responderá instantaneamente aos cliques, mas gastará muito poder computacional para apenas fazer trocas de contexto,
+despencando a vazão total de processos finalizados. Aumentar o quantum melhora a vazão, mas diminui a interatividade.

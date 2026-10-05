@@ -1,0 +1,7 @@
+19. Existe alguma razão para que você quisesse montar um
+sistema de arquivos em um diretório não vazio? Se a
+resposta for sim, por quê?
+
+No Linux, quando um novo sistema de ficheiros é montado num diretório que já contém dados, os ficheiros originais ficam inacessíveis
+até que a desmontagem ocorra. Dessa forma, é possível sobrepor provisoriamente ficheiros de configuração nativos num servidor ou executar depurações
+seguras sem destruir a raiz.

@@ -1,0 +1,6 @@
+Cap2 (pág 139)
+
+3. Em todos os computadores atuais, pelo menos parte dos tratadores de interrupções é escrita em linguagem de montagem. Por quê?
+
+Porque precisam realizar operações profundas no hardware.
+Linguagens de alto nível não oferecem acesso direto a essas instruções de baixo nível exigidas no momento da troca de contexto.

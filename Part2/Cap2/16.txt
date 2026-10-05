@@ -1,0 +1,4 @@
+16. É possível que um thread seja antecipado por uma interrupção de relógio? Se a resposta for afirmativa, em quais circunstâncias?
+
+Sim, é possível. Para threads de kernel, o SO utiliza interrupções de relógio naturalmente para fazer a preempção.
+Para threads de usuário, isso ocorre se a biblioteca solicitar ao SO um sinal de temporizador para forçar a troca.

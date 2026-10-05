@@ -1,0 +1,5 @@
+53. Considere um sistema no qual se deseja separar política
+e mecanismo para o escalonamento de threads de núcleo. Proponha um meio de atingir essa meta.
+
+O núcleo deve implementar o mecanismo da troca de contexto física entre as threads. A política
+deve ser delegada a um processo no espaço de usuário, que ditará as regras ao núcleo enviando parâmetros através de chamadas de sistema.

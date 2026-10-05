@@ -1,0 +1,7 @@
+20. Na discussão sobre variáveis globais em threads, usa-
+mos uma rotina create_global para alocar memória para
+um ponteiro para a variável, em vez de para a própria variável. Isso é essencial, ou as rotinas poderiam funcionar
+somente com os próprios valores?
+
+É essencial usar um ponteiro. Como a rotina não sabe antecipadamente o tamanho ou o tipo do dado a ser armazenado, ela usa um ponteiro de tamanho fixo.
+Assim, cada thread tem a flexibilidade de alocar dinamicamente a memória exata de que precisa.

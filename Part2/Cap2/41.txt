@@ -1,0 +1,6 @@
+41. É possível determinar se um processo é propenso a se
+tornar limitado pela CPU ou limitado pela E/S analisando o código fonte? Como isso pode ser determinado no
+tempo de execução?
+
+Sim. No código-fonte é possível identificar.
+Em tempo de execução, o SO observa se o processo esgota todo o seu quantum frequentemente (CPU) ou se bloqueia voluntariamente aguardando dispositivos (E/S).   

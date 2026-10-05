@@ -1,0 +1,10 @@
+29. A Figura 1.23 mostra que uma série de chamadas de sis-
+tema UNIX não possuem equivalentes na API Win32.
+Para cada uma das chamadas listadas como não tendo
+um equivalente Win32, quais são as consequências para
+um programador de converter um programa UNIX para
+ser executado sob o Windows?
+
+Para portabilizar aplicações, funções inteiras precisam ser redesenhadas.
+Por exemplo: no UNIX, a função fork() cria um clone exato do processo pai em memória. No Windows, a função CreateProcess() cria um filho completamente novo desde o início.
+Por serem diferentes, o programador precisa implementar uma lógica extra para simular o estado, complicando o controle e a sincronização do código.

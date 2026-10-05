@@ -1,0 +1,3 @@
+31. Como um sistema operacional capaz de desabilitar interrupções poderia implementar semáforos?
+
+O SO desabilita as interrupções antes de testar, alterar o contador do semáforo ou bloquear/acordar processos, reabilitando-as logo em seguida.

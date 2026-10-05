@@ -1,0 +1,8 @@
+14. Um computador tem um pipeline com quatro estágios.
+Cada estágio leva um tempo para fazer seu trabalho, a
+saber, 1 ns. Quantas instruções por segundo essa máqui-
+na consegue executar?
+
+Num processador com arquitetura de pipeline, as instruções são divididas em etapas sobrepostas. Embora a primeira instrução demore 4 nanossegundos para completar
+todos os estágios, se o pipeline estiver totalmente preenchido, uma nova instrução concluída sairá no último estágio a cada ciclo de relógio (1 ns).
+Portanto, a máquina executará 1 instrução a cada 1 ns.

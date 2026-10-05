@@ -1,0 +1,8 @@
+10. Qual é a diferença entre modo núcleo e modo usuário?
+Explique como ter dois modos distintos ajuda no projeto
+de um sistema operacional.
+
+O modo usuário é um ambiente restrito onde o código executa sem acesso direto ao hardware ou a áreas críticas de memória.
+Já o modo núcleo possui privilégio total de instrução e endereçamento.
+Esses dois modos ajudam a isolar falhas, por exemplo se um programa de nível utilizador realizar uma operação ilegal (como uma divisão por zero),
+gera um Trap que devolve o controlo ao núcleo para terminar o processo com segurança, impedindo que o sistema inteiro colapse.   

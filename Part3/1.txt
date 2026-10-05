@@ -1,0 +1,7 @@
+1. O que difere os algoritmos de escalonamento preemptivos para os não-preemptivos? Explique e dê exemplos de algoritmos dos dois tipos.
+
+A maior diferença entre os dois é a capacidade do SO em ter total controle ou não da CPU.
+Nos preemptivos, o SO pode acabar interropendo à força um processo que está em execução (por ter estourado o limite de tempo quantum) para dar lugar a outro.
+Ex.: FIFO  
+Já nos não preemptivos, o processo domina a CPU e continua executando até terminar sua tarefa, liberando-a de forma voluntária.
+Ex.: Round-Robin

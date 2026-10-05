@@ -1,0 +1,4 @@
+42. Explique como o valor quantum de tempo e tempo de chaveamento de contexto afetam um ao outro, em um algoritmo de escalonamento circular.
+
+Se o quantum for muito curto, o tempo gasto nas trocas de contexto consome a CPU, derrubando a eficiência do sistema. Já um quantum muito longo
+dilui o tempo, mas arruína a interatividade.
